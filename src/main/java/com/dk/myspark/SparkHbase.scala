@@ -23,7 +23,9 @@ object SparkHbase {
 
 //        rdd.foreach(x=> println(Bytes.toString(x._1.get())))
         rdd.foreachPartition(x => {
-            x.foreach(x => println(Bytes.toString(x._1.get())))
+            x.foreach(x => {
+                println(Bytes.toString(x._1.get())+","+Bytes.toString(x._2.value()))
+            })
         })
 
     }

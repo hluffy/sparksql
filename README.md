@@ -8,3 +8,8 @@
 * spark版本：2.11
 * scala版本：2.12.4
 * hbase版本：1.4.1
+
+# spark sql
+
+* spark版本：2.11
+* scala版本：2.11.0
