@@ -18,7 +18,8 @@ object MySparkSqlReadParquet {
         parquet.createOrReplaceTempView("user1")
 
         val data = spark.sql("select * from user1")
-        data.show()
+//        data.show()
+        data.foreach(x=>println(x(2)))
 
     }
 
