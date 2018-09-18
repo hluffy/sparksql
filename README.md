@@ -13,3 +13,12 @@
 
 * spark版本：2.11
 * scala版本：2.11.0
+
+# spark streaming
+
+* spark版本：2.11
+* scala版本：2.11.0
+
+# nc使用
+
+* nc -lp 19999 监听19999端口
