@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c483908c-e457-4d35-8bdd-b80ac442b1dd" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dk/mysparkstreaming/MySparkStreamFileSystem.scala" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_0_10_0_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_streaming_kafka_0_10_2_11_2_3_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/dk/mysparkstreaming/MySparkStreamKafka.scala" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/sparksql.iml" afterPath="$PROJECT_DIR$/sparksql.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,9 +27,21 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="885">
-              <caret line="59" column="21" lean-forward="false" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+            <state relative-caret-position="496">
+              <caret line="64" column="36" lean-forward="true" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MySparkStreamKafka.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dk/mysparkstreaming/MySparkStreamKafka.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+              <folding>
+                <element signature="e#33#96#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MySparkStreamFileSystem.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MySparkStreamFileSystem.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dk/mysparkstreaming/MySparkStreamFileSystem.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="34" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="17" selection-end-column="34" />
+            <state relative-caret-position="105">
+              <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
               <folding>
                 <element signature="e#33#81#0" expanded="true" />
               </folding>
@@ -85,11 +102,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="41" lean-forward="false" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+            <state relative-caret-position="608">
+              <caret line="52" column="8" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -124,10 +141,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/dk/mysparksql/MySparkSql.scala" />
         <option value="$PROJECT_DIR$/src/main/java/com/dk/mysparksql/MySparkSqlReadParquet.scala" />
         <option value="$PROJECT_DIR$/src/main/java/com/dk/mysparkstream/MySparkStreamWordCount.scala" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/dk/mysparkstreaming/MySparkStreamWordCount.scala" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/dk/mysparkstreaming/MySparkStreamFileSystem.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dk/mysparkstreaming/MySparkStreamKafka.scala" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -140,7 +158,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="810" />
@@ -286,7 +304,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MySparkStreamFileSystem">
+  <component name="RunManager" selected="Application.MySparkStreamKafka">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -351,14 +369,14 @@
       <module name="sparksql" />
       <envs />
     </configuration>
-    <configuration name="MySparkStreamWordCount (1)" type="Application" factoryName="Application" temporary="true">
+    <configuration name="MySparkStreamKafka" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.dk.mysparkstreaming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.dk.mysparkstreaming.MySparkStreamWordCount" />
+      <option name="MAIN_CLASS_NAME" value="com.dk.mysparkstreaming.MySparkStreamKafka" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -370,14 +388,14 @@
       <module name="sparksql" />
       <envs />
     </configuration>
-    <configuration name="MySparkStreamWordCount" type="Application" factoryName="Application" temporary="true">
+    <configuration name="MySparkStreamWordCount (1)" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.dk.mysparkstream.*" />
+          <option name="PATTERN" value="com.dk.mysparkstreaming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.dk.mysparkstream.MySparkStreamWordCount" />
+      <option name="MAIN_CLASS_NAME" value="com.dk.mysparkstreaming.MySparkStreamWordCount" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -466,17 +484,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.MySparkSql" />
       <item index="1" class="java.lang.String" itemvalue="Application.MySparkSqlReadParquet" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MySparkStreamWordCount" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MySparkStreamWordCount (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MySparkStreamFileSystem" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MySparkStreamWordCount (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MySparkStreamFileSystem" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MySparkStreamKafka" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MySparkStreamFileSystem" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MySparkStreamWordCount (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MySparkSqlReadParquet" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MySparkSql" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MySparkStreamWordCount" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MySparkStreamKafka" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MySparkStreamFileSystem" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MySparkStreamWordCount (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MySparkSqlReadParquet" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MySparkSql" />
       </list>
     </recent_temporary>
   </component>
@@ -510,7 +528,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="810" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -522,7 +540,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22357723" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07882353" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -874,14 +892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="59" column="21" lean-forward="false" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dk/mysparksql/MySparkSqlReadParquet.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -890,11 +900,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dk/mysparkstreaming/MySparkStreamFileSystem.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="41" lean-forward="false" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-          <folding />
+        <state relative-caret-position="105">
+          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="e#33#81#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -908,13 +920,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dk/mysparkstreaming/MySparkStreamFileSystem.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dk/mysparkstreaming/MySparkStreamKafka.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="34" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="17" selection-end-column="34" />
+        <state relative-caret-position="165">
+          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
           <folding>
-            <element signature="e#33#81#0" expanded="true" />
+            <element signature="e#33#96#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="64" column="36" lean-forward="true" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="52" column="8" lean-forward="true" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
