@@ -39,8 +39,7 @@
 	* 启动kafka服务器 ``` kafka-server-start.sh config/server.properties ```
 
 * 创建topic
-	* 创建主题
-		* 创建一个副本，一个副本的主题 ``` kafka-topic.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test ```
+	* 创建一个分区，一个副本的主题 ``` kafka-topic.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test ```
 	
 	* 列出主题
 		``` kafka-topic.sh --list --zookeeper localhost:2181 ```
